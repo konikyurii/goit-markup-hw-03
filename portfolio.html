@@ -14,23 +14,28 @@
 <body>
     <header class="header">
         <div class="container">
+        <div class="header-container">
             <nav class="header-nav">
                 <a class="logo" lang="en" href="./index.html">Web<span class="studio">Studio</span></a>
-                <ul class="header-list-nav list">
+                <ul class="header-list-nav list ">
                     <li><a class="header-item-nav" href="./index.html">Студія</a></li>
                     <li><a class="header-item-nav current" href="./portfolio.html">Портфоліо</a></li>
                     <li><a class="header-item-nav" href="#">Контакти</a></li>
                 </ul>
             </nav>
-            <ul class="header-list-contact list">
-                <li><a class="header-item-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="header-item-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+            <div class="contact-wrapper">
+                <ul class="header-list-contact list ">
+                    <li><a class="header-item-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="header-item-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
+        </div>
         </div>
     </header>
 
     <main>
-        <section class="section container">
+        <section class="section">
+            <div class="container">
             <h1 class="visually-hidden">Портфоліо</h1>
             <ul class="filters list">
                 <li><button class="filter-button" type="button">Усі</button></li>
@@ -39,7 +44,7 @@
                 <li><button class="filter-button" type="button">Дизайн</button></li>
                 <li><button class="filter-button" type="button">Маркетинг</button></li>
             </ul>
-
+            
             <ul class="projects-list list">
                 <li class="project">
                     <a href="#">
@@ -123,11 +128,13 @@
                     </a>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="footer-wrapper container">
+        <div class="footer-wrapper">
+            <div class="container">
             <a class="logo" lang="en" href="./index.html">Web<span class="footer-studio">Studio</span></a>
             <address class="footer-address">
                 <ul class="footer-list-address list">
@@ -137,6 +144,7 @@
                     <li><a class="footer-item-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </address>
+            </div>
         </div>
     </footer>
     

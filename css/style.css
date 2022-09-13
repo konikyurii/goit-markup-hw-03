@@ -25,6 +25,10 @@ ul{
     padding-left: 0;
 }
 
+img{
+    display: block;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--primary-color);
@@ -151,6 +155,8 @@ a{
 .order-button{
     background-color: var(--acent-color);
     border-radius: 4px;
+    border-style: none;
+    padding: 10px 32px;
     cursor: pointer;
     font-family: inherit;
     font-weight: 700;
@@ -167,8 +173,7 @@ a{
 }
 
 .section{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: 94px 0;
 }
 
 .benefits-wrapper{
@@ -211,11 +216,11 @@ a{
         margin-bottom: 50px;
 }
 
-.services-list{
+.service-list{
     display: flex;
 }
 
-.services-list li:not(:first-child){
+.service-list li:not(:first-child){
     margin-left: 30px;
 }
 
@@ -225,10 +230,11 @@ a{
 
 .cards-list{
     display: flex;
+    gap: 30px;
 }
 
-.cards-list li:not(:first-child){
-    margin-left: 30px;
+.card{
+    width: calc((100% - 60px) / 3);
 }
 
 .card{
@@ -259,8 +265,7 @@ a{
 }
 
 .footer-wrapper{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
 }
 
 .footer-studio{
@@ -301,6 +306,12 @@ a{
 
 .filters{
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.filters li:not(:first-child){
+    margin-left: 8px;
 }
 
 .filter-button{
@@ -312,6 +323,8 @@ a{
         font-size: 16px;
         line-height: 1.62;
         color: inherit;
+        padding: 6px 22px;
+        border-style: none;
 }
 
 .filter-button:hover,
@@ -324,14 +337,19 @@ a{
                 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
 .project{
-    width: 370px;
-    border-bottom: 1px solid #EEEEEE;
-    margin: 30px;
+    width: calc((100% - 60px) / 3) ;
 }
 
 .info{
-    margin: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 
 .project-subtitle{
@@ -340,11 +358,12 @@ a{
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-color);
-    margin-bottom: 4px;
+    margin: 20px 0 4px 24px;
 }
 
 .project-desc{
     font-size: 16px;
     line-height: 1.87;
     color: var(--secondary-color);
+    margin: 0 0 20px 24px;
 }
