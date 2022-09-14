@@ -134,14 +134,9 @@ a{
 
 .hero-section{
     background-color: var(--fourth-color);
-}
-
-.hero-wrapper{
     padding-top: 200px;
     padding-bottom: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .main-title{
@@ -153,6 +148,7 @@ a{
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: var(--third-color);
+        margin: 0 auto;
         margin-bottom: 30px;
 }
 
