@@ -176,8 +176,9 @@ a{
     padding: 94px 0;
 }
 
-.benefits-wrapper{
-    padding-bottom: 94px;
+.benefits-section{
+    padding-top: 94px;
+    padding-bottom: 47px;
 }
 
 .visually-hidden{
@@ -216,6 +217,11 @@ a{
         margin-bottom: 50px;
 }
 
+.service-section{
+    padding-top: 47px;
+    padding-bottom: 94px;
+}
+
 .service-list{
     display: flex;
 }
@@ -226,6 +232,7 @@ a{
 
 .team-section{
     background-color: var(--fifth-color);
+    padding: 94px 0;
 }
 
 .cards-list{
@@ -243,11 +250,14 @@ a{
     border-radius: 0px 0px 4px 4px;
 }
 
+.team-info{
+    padding: 30px 0;
+}
+
 .team-subtitle{
     font-weight: 500;
         font-size: 16px;
         line-height: 1.18;
-        margin-top: 30px;
         margin-bottom: 10px;
         text-align: center;
 }
@@ -256,7 +266,6 @@ a{
         font-size: 16px;
         line-height: 1.18;
         color: var(--secondary-color);
-        margin-bottom: 30px;
         text-align: center;
 }
 
