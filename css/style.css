@@ -49,11 +49,10 @@ body{
 
 a{
     text-decoration: none;
+    display: block;
 }
 
 .header{
-    padding-top: 24px;
-    padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -64,6 +63,7 @@ a{
 
 .header-nav{
     display: flex;
+    align-items: center;
 }
 
 .logo{
@@ -95,6 +95,8 @@ a{
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: inherit;
+        padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .current{
@@ -121,6 +123,8 @@ a{
         letter-spacing: 0.02em;
         color: var(--secondary-color);
         margin-left: 50px;
+        padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .header-item-contact:hover,
